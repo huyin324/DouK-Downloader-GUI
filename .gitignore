@@ -1,0 +1,44 @@
+# ---- 运行环境 ----
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- 本地配置：内含 Cookie 等敏感凭据，切勿提交 ----
+config/gui_settings.json
+config/*.backup-*.json
+config/*.broken-*.json
+
+# ---- 个人信息素材：收款码 / 带真实数据的截图，勿提交 ----
+微信收款码.JPG
+支付宝收款码.JPG
+GUI运行截图.png
+
+# ---- 项目工作区（本地笔记）----
+.workbuddy/
+
+# ---- 临时文件 ----
+.workbuddy/tmp/
+.workbuddy/backup/
+*.tmp
+
+# ---- 打包产物 ----
+build/
+dist/
+*.manifest
+*.spec.bak
+selftest_report.txt
+selftest_stdout.log
+build_log.txt
+
+# ---- 打包版运行时数据（含下载记录与配置，勿提交）----
+Volume/
+Cache/
+Downloads/
+backup/
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store

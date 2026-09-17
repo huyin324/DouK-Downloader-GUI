@@ -1,0 +1,7 @@
+* text=auto
+*.bat -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.db binary
+*.ico binary

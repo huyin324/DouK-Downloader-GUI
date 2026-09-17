@@ -1,0 +1,16 @@
+# GUI 外壳依赖
+PyQt6>=6.6.0
+
+# 以下为上游内核 DouK-Downloader V5.8 的依赖（必须保持一致，内核逻辑依赖其行为）
+aiofiles==25.1.0
+aiosqlite==0.22.1
+curl-cffi==0.16.3
+emoji==2.15.0
+fastapi==0.141.1
+javascript==1!1.2.6
+lxml==6.1.3
+openpyxl==3.1.5
+pydantic==2.13.5
+pyperclip==1.11.0
+rich==15.0.0
+uvicorn==0.52.4
